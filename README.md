@@ -14,3 +14,5 @@ Credits to
 *Ameruverse Digital Marketing Media: https://www.pexels.com/photo/black-camera-on-tripod-on-table-2823936/;
 
 *Norwood Themes: https://unsplash.com/photos/_sg8nXmpWDM;
+
+*Alex Knight: https://www.pexels.com/photo/high-angle-photo-of-robot-2599244/;

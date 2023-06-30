@@ -12,9 +12,15 @@ li {
 .navbar {
     display: flex;
     justify-content: space-around;
+    gap: 400px;
     align-items: center;
     background-color: #1f2937;
     min-height: 100px;
+}
+@media only screen and (max-width: 980px) {
+    .navbar {
+        gap: 0;
+    }
 }
 .logo img{
     width: 150px;
@@ -88,6 +94,72 @@ li {
     box-shadow: 15px 15px #0e1e25;
     flex: 1;
     animation: drop 2s ease;
+}
+@media only screen and (max-width: 1280px) {
+    .hero {
+        flex-direction: column;
+        gap: 20px;
+        height: auto;
+        text-align: center;
+    }
+    .left-hero {
+        flex: 1;
+    }
+    .left-hero button {
+        align-self: center;
+    }
+    .right-img {
+        flex: 1;
+        margin-bottom: 30px;
+    }
+}
+.info-header {
+    text-align: center;
+    font-size: 30px;
+    font-weight: extra-bold;
+    color: #1f2937;
+    margin-block: 50px;
+}
+.information {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+.info img {
+    width: 300px;
+    height: 250px;
+    object-fit: cover;
+    border: 1px solid #1f2937;
+    border-radius: 10px;
+}
+.info p {
+    width: 300px;
+}
+.testimonials {
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.quote {
+    display: block;
+    width: 750px;
+}
+.quote blockquote {
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    margin-bottom: 10px;
+}
+.quote p {
+    margin-left: 350px;
+    font-weight: bold;
+    font-size: 30px;
 }
 @keyframes drop {
     0% {
